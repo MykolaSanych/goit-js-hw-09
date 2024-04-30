@@ -95,3 +95,9 @@ body {
 .link {
   font-size: 42px;
 }
+.hidden-scroll .sl-wrapper .sl-next,
+.hidden-scroll .sl-wrapper .sl-prev,
+.hidden-scroll .sl-wrapper .sl-counter,
+.hidden-scroll .sl-wrapper .sl-close {
+  color: rgb(255, 255, 255);
+}
