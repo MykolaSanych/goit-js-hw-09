@@ -21,7 +21,8 @@ function submit(evt) {
     console.log(formData);
     localStorage.removeItem('feedback-form-state');
     feedbackForm.reset();
-    feedbackForm = {};
+    formData.email = '';
+    formData.message = '';
   } else {
     alert('«Fill please all fields»');
   }
