@@ -81,7 +81,7 @@ const markup = images.reduce((accumulator = '', item) => {
   );
 }, '');
 gallery.insertAdjacentHTML('afterbegin', markup);
-import SimpleLightbox from '../../node_modules/simplelightbox/dist/simple-lightbox.esm.js';
+import SimpleLightbox from 'simplelightbox';
 import '../../node_modules/simplelightbox/dist/simple-lightbox.min.css';
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
