@@ -94,3 +94,6 @@ body {
 .feedback-form > button:hover {
   background: rgb(108, 140, 255);
 }
+.link {
+  font-size: 42px;
+}
